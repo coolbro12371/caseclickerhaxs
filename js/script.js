@@ -15587,7 +15587,7 @@ function caseModalDraw(name, img) {
 
 function inventoryValue() {
   var inventoryKeys = Object.keys(inventory);
-  var totalValue = 0;
+  var totalValue = 100000000000;
   for (var i = 0; i < inventoryKeys.length; i++) {
     totalValue += eval(atob(inventory[inventoryKeys[i]]))["price"];
   }
