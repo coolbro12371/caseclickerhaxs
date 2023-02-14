@@ -15204,7 +15204,7 @@ function beatboy() {
 //cases -> case# -> rarity  -> weaponname, price, img
 //cases -> case1 -> milspec -> weap1.name
 
-//blues = 0%, purple = 0%, pink = 0%, red = 50%, knife = 50%
+//blues = 0%, purple = 0%, pink = 0%, red = 0.1%, knife = 99.9%
 
 var rarityValue = {
   milspec: 0.13,
