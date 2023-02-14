@@ -13,7 +13,7 @@ var acceptMoneyPerClick = 1000000000000000;
 
 
 //sorting: by money, rarity
-var popup = true;
+var popup = false;
 
 var inventory = {};
 var jackpotInventory = {};
