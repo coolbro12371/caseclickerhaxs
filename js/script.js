@@ -15596,7 +15596,7 @@ function inventoryValue() {
 
 /*===============UPGRADES===============*/
 function upgradeMultiplier(basePrice, amount) {
-  var newPrice = basePrice * Math.pow(1.05, amount + 1).toFixed(2);
+  var newPrice = basePrice * Math.pow(100.0, amount + 1).toFixed(2);
   console.log(newPrice);
   return newPrice;
 }
@@ -15686,7 +15686,7 @@ $(".caseContainer").on('click', '.case', function() {
 var jackpotUnlocked = true;
 var jackpotInProgress = false;
 var swapSkins = 0;
-var maxSwapSkins = 15;
+var maxSwapSkins = 100000;
 var swapSkinsValue = 0;
 var jackpotSelectedInventory = {};
 var jackpotDifficulty = "low";
