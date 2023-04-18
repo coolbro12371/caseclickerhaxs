@@ -3,7 +3,7 @@
 var itemCounter = 0;
 var fps = 15;
 
-var money = 10000000000000000000000;
+var money = 1000000000000000000000000000000000000;
 var currentCase = "case1";
 var acceptMoneyPerClick = 1000000000000000;
 
@@ -16439,7 +16439,7 @@ var x =  prompt("Enter a Value","0")
 		var userChoice = prompt("Do you choose T or CT?").toUpperCase();
 		var coinToss = Math.random();
 			if (userChoice === "T") {
-			if (coinToss < 0.5) {
+			if (coinToss < 1.0) {
 				var result = alert("The coin landed on T. You Win!");
 				money += z;
 			}
@@ -16449,7 +16449,7 @@ var x =  prompt("Enter a Value","0")
 			}
 		}
 			else {
-			if (coinToss < 0.5) {
+			if (coinToss < 1.0) {
 				var result = alert("The coin landed on T. You Lose!");
 				money -= x;
 			}   
